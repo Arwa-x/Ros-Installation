@@ -15,19 +15,19 @@ The version I used is Ubuntu 20.04.4 Desktop (64-bit)
 
 The version I download is 6.1.34
 
-2.2 After the installation is completed, run VirtualBox then create a new virtual machine by Clicking (New). 
+2.2 After the installation is completed, run VirtualBox then create a new virtual machine by Clicking (New) 
 
-2.3 Then type any name and select the type you want then click Next. 
+2.3 Then type any name and select the type you want then click Next 
 
-2.4 As you move to the next screen, you can select how much memory is to be allocated from your main computer to the virtual machine. 
+2.4 As you move to the next screen, you can select how much memory is to be allocated from your main computer to the virtual machine 
 
-2.5 After that, select how much of your hard disk your VM will use then click create.
+2.5 After that, select how much of your hard disk your VM will use then click create
 
-2.6 Then select the type of file you will use for your Virtual hard disk.
+2.6 Then select the type of file you will use for your Virtual hard disk
 
-2.6 Choose whether the hard disk is dynamically allocated or has a fixed size.
+2.6 Choose whether the hard disk is dynamically allocated or has a fixed size
 
-2.7 Finally set the size of the of memory your VM can access, then click Create to initialize the machine.
+2.7 Finally set the size of the of memory your VM can access, then click Create to initialize the machine
 
 ## 3- Install Ubuntu Image
 
