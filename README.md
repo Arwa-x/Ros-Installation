@@ -47,7 +47,7 @@ The version I download is 6.1.34
 
 ## 4- Install ROS in ubuntu
 
-4.1 From ubuntu enter Firefox browser and search http://wiki.ros.org/Installation/Ubuntu wesite
+4.1 From ubuntu enter Firefox browser and search http://wiki.ros.org/Installation/Ubuntu website
 
 4.2 Search and choose ROS version that is recommended to the ubuntu version that you have installed before
 
