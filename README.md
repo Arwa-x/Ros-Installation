@@ -59,5 +59,5 @@ The version of ROS I used for Ubuntu 20.04.4 is ROS Noetic
 
 4.5 On the terminal paste all instructions you copied from the website one by one
 
-4.6 After installation is completed type roscore in the terminal to ensure that it has been installed successfully
+4.6 After installation is completed type roscore in the terminal to ensure that it has been installed successfully..
 
