@@ -1,4 +1,4 @@
-# Ros Installation in ubuntu
+# Ros Installation on ubuntu
 
 ## 1- Download an Ubuntu Image
 
@@ -7,7 +7,6 @@
 and save its location to add it later to the VirtualBox
 
 The version I used is Ubuntu 20.04.4 Desktop (64-bit)
-
 
 ## 2- Download and install VirtualBox
 
