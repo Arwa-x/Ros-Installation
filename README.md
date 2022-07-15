@@ -56,9 +56,9 @@ The version of ROS I used for Ubuntu 20.04.4 is ROS Noetic
 
 Link: http://wiki.ros.org/Installation/Ubuntu website
 
-4.3 On the search bar of ubuntu type Terminal and open it
+4.2 On the search bar of ubuntu type Terminal and open it
 
-4.4 copy these instructions one by one and paste it into the terminal to install it
+4.3 copy these instructions one by one and paste it into the terminal to install it
 
 ### Setup your sources.list
 ```
