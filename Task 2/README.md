@@ -23,7 +23,7 @@ It’s important to have a card that’s fast and large enough, the minimum reco
 
 2.5 Click “Flash!” it will take time to write and validate the image
 
-2.6 After Etcher finishes, Windows prompts you with a dialog of formatting the disk just click Cancel and remove the SD card
+2.6 After Etcher finishes, Windows prompts you with a dialog of formatting the disk just click “Cancel” and remove the SD card
 
 2.7 Insert the SD card into the slot on the underside of the Jetson Nano
 
