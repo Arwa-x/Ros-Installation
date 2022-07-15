@@ -42,21 +42,66 @@ The version I download is 6.1.34
 
 3.6 The installation will start and after it is finished click Restart now then press Enter
 
-3.7 Finally enter the password you have chosen and press Enter and your Ubuntu Desktop OS is ready
+3.7 Finally enter the password you have chosen and press Enter now your Ubuntu Desktop OS is ready
 
 ## 4- Install ROS in ubuntu
 
-4.1 From ubuntu enter Firefox browser and search http://wiki.ros.org/Installation/Ubuntu website
-
-4.2 Search and choose ROS version that is recommended to the ubuntu version that you have installed before
+4.1 From ubuntu go to firefox browser then search for Ros installation and choose the version that is recommended to the ubuntu version that you have installed before
 
 The version of ROS I used for Ubuntu 20.04.4 is ROS Noetic
 
+Link: http://wiki.ros.org/Installation/Ubuntu website
+
 4.3 On the search bar of ubuntu type Terminal and open it
 
-4.4 Follow the steps of instalation in the website
+4.4 Coby these instructions one by one and paste it into the terminal to install it
 
-4.5 On the terminal paste all instructions you copied from the website one by one
+### Setup your sources.list
+```
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+```
+### Set up your keys
+```
+sudo apt install curl # if you haven't already installed curl
+curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
+```
+### Installation
+First, make sure your Debian package index is up-to-date:
+```
+sudo apt update
+```
+Now pick how much of ROS you would like to install
+#### Desktop-Full Install: (Recommended) : Everything in Desktop plus 2D/3D simulators and 2D/3D perception packages
+```
+sudo apt install ros-noetic-desktop-full
+```
+#### Desktop Install: Everything in ROS-Base plus tools like rqt and rviz
+```
+sudo apt install ros-noetic-desktop
+```
+#### ROS-Base: (Bare Bones) ROS packaging, build, and communication libraries. No GUI tools
+```
+sudo apt install ros-noetic-ros-base
+```
+### Environment setup
+```
+source /opt/ros/noetic/setup.bash
+```
+### Dependencies for building packages
+```
+sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+```
+### Initialize rosdep
+```
+sudo apt install python3-rosdep
+```
+```
+sudo rosdep init
+rosdep update
+```
 
-4.6 After installation is completed type roscore in the terminal to ensure that it has been installed successfully then press Ctrl+C in the terminal to stop roscore
-
+4.5 After installation has finished, test it by using this command to ensure that it has been installed successfully
+```
+roscore
+```
+4.6 Finally, press Ctrl+C in the terminal to stop roscore
