@@ -104,7 +104,7 @@ In another terminal source the setup file and then run a Python listener:
 ros2 run demo_nodes_py listener
 ```
 ### Testing
-After installation has finished test it by this command to ensure that it has been installed successfully
+After installation has finished, test it by using this command to ensure that it has been installed successfully
 ```
 ros2 topic list
 ```
