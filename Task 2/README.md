@@ -34,7 +34,7 @@ It’s important to have a card that’s fast and large enough, the minimum reco
 
 Link: https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html
 
-3.2	Coby these instructions into the terminal to install it 
+3.2	copy these instructions into the terminal to install it 
 ### Set locale
 Make sure you have a locale which supports UTF-8
 ```
