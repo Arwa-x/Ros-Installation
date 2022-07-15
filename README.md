@@ -2,7 +2,9 @@
 
 ## 1- Download an Ubuntu Image
 
-1.1 Download an Ubuntu image from https://ubuntu.com/download/desktop
+1.1 Download an Ubuntu image
+
+Download link: https://ubuntu.com/download/desktop
 
 and save its location to add it later to the VirtualBox
 
@@ -10,7 +12,9 @@ The version I used is Ubuntu 20.04.4 Desktop (64-bit)
 
 ## 2- Download and install VirtualBox
 
-2.1 Download and install the latest version of VirtualBox from https://www.virtualbox.org/wiki/Downloads
+2.1 Download and install the latest version of VirtualBox 
+
+Download link: https://www.virtualbox.org/wiki/Downloads
 
 The version I download is 6.1.34
 
