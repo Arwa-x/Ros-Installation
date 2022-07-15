@@ -10,6 +10,7 @@ Download Link: https://github.com/Discombobulated88/Xubuntu-20.04-L4T-32.3.1/rel
 
 ## 2- Download Balena
 2.1 Download, install, and launch Etcher to write the XUbuntu Image to your SD card
+
 Download Link: https://www.balena.io/etcher/
 
 It’s important to have a card that’s fast and large enough, the minimum recommended is a 32 GB card
