@@ -54,7 +54,7 @@ The version I download is 6.1.34
 
 The version of ROS I used for Ubuntu 20.04.4 is ROS Noetic
 
-Link: http://wiki.ros.org/Installation/Ubuntu website
+Link: http://wiki.ros.org/Installation/Ubuntu 
 
 4.2 On the search bar of ubuntu type Terminal and open it
 
