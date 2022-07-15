@@ -104,8 +104,8 @@ sudo rosdep init
 rosdep update
 ```
 
-4.5 After installation has finished, test it by using this command to ensure that it has been installed successfully
+4.4 After installation has finished, test it by using this command to ensure that it has been installed successfully
 ```
 roscore
 ```
-4.6 Finally, press Ctrl+C in the terminal to stop roscore
+4.5 Finally, press Ctrl+C in the terminal to stop roscore
