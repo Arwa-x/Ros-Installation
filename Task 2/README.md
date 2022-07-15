@@ -25,7 +25,7 @@ It’s important to have a card that’s fast and large enough, the minimum reco
 
 2.7 Insert the SD card into the slot on the underside of the Jetson Nano
 
-2.8 Connect your keyboard/mouse/monitor and power. It turns on automatically
+2.8 Connect your keyboard/mouse/monitor and power
 
 ## 3- Install Ros 2
 3.1 After the XUbuntu image loaded, open firefox and search for Ros 2 installation
@@ -92,18 +92,17 @@ Set up your environment by sourcing the following file
 ```
 source /opt/ros/foxy/setup.bash
 ```
+### Try some examples
+In one terminal, source the setup file and then run a C++ talker:
+```
+ros2 run demo_nodes_cpp talker
+```
+In another terminal source the setup file and then run a Python listener:
+```
+ros2 run demo_nodes_py listener
+```
 ### Testing
 After installation has finished test it by this command to ensure that it has been installed successfully
 ```
 ros2 topic list
 ```
-
-
-
-
-
-
-
-
-
-
